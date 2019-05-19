@@ -1,4 +1,5 @@
 .galery {
+  background-color: $gray-main;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -18,7 +19,6 @@
     position: absolute;
 
     img {
-      border-radius: 5px;
       height: 100%;
       width: 100%;
     }
@@ -27,7 +27,6 @@
 
 .info {
   background-color: $black-transparent-i;
-  border-radius: 5px;
   color: $gray;
   display: flex;
   flex-direction: column;
