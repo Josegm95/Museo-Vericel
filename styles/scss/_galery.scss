@@ -1,0 +1,61 @@
+.galery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2vw;
+  margin-top: 2vw;
+}
+
+.article {
+  cursor: pointer;
+  height: 40vh;
+  margin: 2vw;
+  position: relative;
+  width: 26vw;
+
+  figure {
+    height: 100%;
+    position: absolute;
+
+    img {
+      border-radius: 5px;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
+.info {
+  background-color: $black-transparent-i;
+  border-radius: 5px;
+  color: $gray;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+
+  h2 {
+    display: none;
+    font-size: 30px;
+  }
+
+  p {
+    display: none;
+    margin: 5px;
+  }
+
+  &:hover {
+    background-color: $black-transparent-f;
+
+    h2 {
+      display: inline-block;
+    }
+
+    p {
+      display: block;
+    }
+  }
+}

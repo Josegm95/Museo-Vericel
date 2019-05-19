@@ -1,0 +1,52 @@
+.slider-container {
+  border: 4px solid $black-main;
+  border-radius: 5px;
+  height: 75vh;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 70vw;
+
+  i {
+    align-items: center;
+    background-color: $black;
+    border: 1px solid $white;
+    border-radius: 40px;
+    color: $white;
+    display: flex;
+    font-size: 20px;
+    height: 40px;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+
+    &:hover {
+      cursor: pointer;
+      opacity: .6;
+    }
+
+    &:active {
+      border-color: $black-main;
+      color: $black-main;
+    }
+  }
+
+  .prev-btn {
+    left: 5px;
+  }
+
+  .next-btn {
+    right: 5px;
+  }
+}
+
+.slider {
+  display: flex;
+  height: 100%;
+  width: 100%;
+
+  img {
+    width: 100%;
+  }
+}

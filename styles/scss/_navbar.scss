@@ -1,0 +1,22 @@
+.navbar {
+  align-items: center;
+  background-color: $black-main;
+  display: flex;
+  height: 6vh;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+
+  a {
+    color: $white;
+    font-size: 18px;
+    margin: 0 1.5vw;
+    text-decoration: none;
+
+    &:hover {
+      opacity: .5;
+    }
+  }
+}
