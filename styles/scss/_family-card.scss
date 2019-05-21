@@ -1,0 +1,64 @@
+.family-card {
+  align-items: center;
+  background-color: $black-second;
+  border-radius: 5px;
+  color: $gray-main;
+  display: flex;
+  height: 70vh;
+  margin: 40px auto;
+  width: 70%;
+
+  &--right {
+    flex-direction: row-reverse;
+  }
+}
+
+.family-img {
+  align-items: center;
+  background-color: $black-main;
+  border-radius: 5px;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 35%;
+
+  img {
+    height: auto;
+    width: 70%;
+  }
+}
+
+.info-container {
+  height: 100%;
+  padding: 30px;
+  width: 65%;
+}
+
+.description {
+  margin-bottom: 30px;
+
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+}
+
+.species {
+  span {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  li {
+    height: 50px;
+    padding: 0 10px;
+
+    &:hover {
+      background-color: $black-main;
+    }
+  }
+}
