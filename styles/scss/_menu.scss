@@ -20,7 +20,7 @@
     }
 
     &:active {
-      opacity: .8;
+      opacity: 0.8;
     }
 
     i {
@@ -43,7 +43,7 @@
 
     &:hover {
       background-color: $black-main;
-      border: 1px solid $white;
+      border-left: 7px solid $black-second;
     }
 
     &:active {
