@@ -1,0 +1,59 @@
+.menu {
+  background-color: $black-second;
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  left: 10%;
+  position: absolute;
+  top: 20vh;
+  width: 20%;
+
+  &_title {
+    align-items: center;
+    background-color: $black-main;
+    cursor: pointer;
+    display: flex;
+    height: 8vh;
+
+    &:hover {
+      background-color: $black-second;
+    }
+
+    &:active {
+      opacity: .8;
+    }
+
+    i {
+      font-size: 25px;
+      margin: 0 10px;
+    }
+
+    span {
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+
+  &_item {
+    align-items: center;
+    border: 1px solid $black-main;
+    cursor: pointer;
+    display: flex;
+    height: 10vh;
+
+    &:hover {
+      background-color: $black-main;
+      border: 1px solid $white;
+    }
+
+    &:active {
+      opacity: 0.8;
+    }
+
+    a {
+      color: $white;
+      font-weight: bold;
+      margin: 0 10px;
+    }
+  }
+}

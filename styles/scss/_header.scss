@@ -4,11 +4,10 @@
   height: 20vh;
   justify-content: space-between;
   margin: auto;
-  width: 70vw;
+  width: 70%;
 
   img {
     height: 90%;
-    margin-right: 5vw;
     width: auto;
   }
 }
@@ -16,7 +15,7 @@
 .search {
   align-items: center;
   border: 3px solid $black-main;
-  border-radius: 5px;
+  border-radius: 2px;
   display: flex;
   height: 30px;
   justify-content: space-between;
@@ -26,11 +25,12 @@
     background-color: transparent;
     border: 0;
     font-size: 16px;
+    width: 100%;
   }
 
   i {
     background-color: $black-main;
-    border: 1px solid $black-main;
+    border-left: 3px solid $black-main;
     color: $white;
     cursor: pointer;
     font-size: 25px;

@@ -1,3 +1,12 @@
 .background-gray {
   background-color: $gray-main;
 }
+
+.v-center {
+  align-items: center;
+  display: flex;
+}
+
+.hide {
+  display: none;
+}
