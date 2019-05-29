@@ -28,83 +28,50 @@ li {
 }
 
 .navbar {
-  align-items: center;
   background-color: #323232;
   display: flex;
   height: 8vh;
   justify-content: flex-end;
-  padding: 0 15%;
+  position: relative;
   width: 100%;
 }
-.navbar_link {
+.navbar_item {
   align-items: center;
-  cursor: pointer;
   display: flex;
   font-size: 16px;
   font-weight: bold;
   height: 100%;
+  justify-content: center;
   width: 15%;
 }
-.navbar_link:hover {
+.navbar_item:hover {
   background-color: #464646;
+  border: 1px solid #e0e0e0;
 }
-.navbar_link:active {
+.navbar_item:active {
   opacity: 0.8;
-}
-.navbar_link a {
-  color: #f1f1f1;
-  margin: auto;
 }
 
-.menu {
-  background-color: #464646;
+.submenu {
   color: #f1f1f1;
-  display: flex;
-  flex-direction: column;
-  left: 10%;
+  left: 0;
   position: absolute;
-  top: 20vh;
   width: 20%;
 }
-.menu_title {
-  align-items: center;
-  background-color: #323232;
+.submenu_title {
   cursor: pointer;
-  display: flex;
+}
+.submenu-items {
+  background-color: #323232;
+  position: relative;
+}
+.submenu_item {
   height: 8vh;
+  width: 100%;
 }
-.menu_title:hover {
-  background-color: #464646;
-}
-.menu_title:active {
-  opacity: 0.8;
-}
-.menu_title i {
+.submenu_item i {
   font-size: 25px;
-  margin: 0 10px;
-}
-.menu_title span {
-  font-size: 16px;
-  font-weight: bold;
-}
-.menu_item {
-  align-items: center;
-  border: 1px solid #323232;
-  cursor: pointer;
-  display: flex;
-  height: 10vh;
-}
-.menu_item:hover {
-  background-color: #323232;
-  border-left: 7px solid #464646;
-}
-.menu_item:active {
-  opacity: 0.8;
-}
-.menu_item a {
-  color: #f1f1f1;
-  font-weight: bold;
-  margin: 0 10px;
+  margin: 0 20px 0 0;
 }
 
 .top-header {
@@ -199,6 +166,7 @@ li {
 }
 
 .article {
+  border-radius: 5px;
   cursor: pointer;
   height: 40vh;
   margin: 2vw;
@@ -210,13 +178,15 @@ li {
   position: absolute;
 }
 .article figure img {
+  border-radius: 5px;
   height: 100%;
   width: 100%;
 }
 
 .info {
   background-color: rgba(0, 0, 0, 0.3);
-  color: #b3b2b2;
+  border-radius: 5px;
+  color: #e0e0e0;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -320,6 +290,18 @@ li {
 }
 .species li:hover {
   background-color: #323232;
+}
+
+.coverpage {
+  display: flex;
+  height: 65vh;
+  justify-content: center;
+  overflow: hidden;
+}
+.coverpage img {
+  border-radius: 5px;
+  margin-top: -35%;
+  width: 95%;
 }
 
 /*# sourceMappingURL=style.css.map */

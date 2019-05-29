@@ -1,32 +1,53 @@
 .navbar {
-  align-items: center;
   background-color: $black-main;
   display: flex;
   height: 8vh;
   justify-content: flex-end;
-  padding: 0 15%;
+  position: relative;
   width: 100%;
 
-  &_link {
+  &_item {
     align-items: center;
-    cursor: pointer;
     display: flex;
     font-size: 16px;
     font-weight: bold;
     height: 100%;
+    justify-content: center;
     width: 15%;
 
     &:hover {
       background-color: $black-second;
+      border: 1px solid $gray-main;
     }
 
     &:active {
-      opacity: .8;
+      opacity: 0.8;
     }
+  }
+}
 
-    a {
-      color: $white;
-      margin: auto;
+.submenu {
+  color: $white;
+  left: 0;
+  position: absolute;
+  width: 20%;
+
+  &_title {
+    cursor: pointer;
+  }
+
+  &-items {
+    background-color: $black-main;
+    position: relative;
+  }
+
+  &_item {
+    height: 8vh;
+    width: 100%;
+
+    i {
+      font-size: 25px;
+      margin: 0 20px 0 0;
     }
   }
 }

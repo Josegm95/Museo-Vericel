@@ -8,6 +8,7 @@
 }
 
 .article {
+  border-radius: 5px;
   cursor: pointer;
   height: 40vh;
   margin: 2vw;
@@ -19,6 +20,7 @@
     position: absolute;
 
     img {
+      border-radius: 5px;
       height: 100%;
       width: 100%;
     }
@@ -27,7 +29,8 @@
 
 .info {
   background-color: $black-transparent-i;
-  color: $gray;
+  border-radius: 5px;
+  color: $gray-main;
   display: flex;
   flex-direction: column;
   height: 100%;
