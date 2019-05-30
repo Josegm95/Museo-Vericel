@@ -301,7 +301,14 @@ li {
 .coverpage img {
   border-radius: 5px;
   margin-top: -35%;
-  width: 95%;
+  width: 100%;
+}
+
+.seccion {
+  border: 1px solid #323232;
+  border-radius: 5px;
+  height: 130vh;
+  margin: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
