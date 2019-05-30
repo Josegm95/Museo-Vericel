@@ -21,17 +21,10 @@
   </head>
 
   <body>
-    <header class="top-header">
-      <img src="../img/logo.png" alt="" />
-      <div class="search">
-        <input type="text" placeholder="Search..." />
-        <i class="fas fa-search"></i>
-      </div>
-    </header>
-
     <nav class="navbar">
+      <img src="../img/logo.png" class="logo" />
       <div class="submenu">
-        <span class="navbar_item submenu_item submenu_title"
+        <span id="navtitle" class="navbar_item submenu_item pointer"
           ><i class="fas fa-bars"></i>FAMILIAS</span
         >
         <div class="submenu-items hide">
@@ -44,6 +37,10 @@
       <a href="../index.html" class="navbar_item">INICIO</a>
       <a href="#" class="navbar_item">GALERIA</a>
       <a href="#" class="navbar_item">NOSOTROS</a>
+      <div class="search">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Search..." class="hide" />
+      </div>
     </nav>
 
     <main>

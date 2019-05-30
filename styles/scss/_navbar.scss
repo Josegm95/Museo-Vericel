@@ -1,23 +1,27 @@
 .navbar {
-  background-color: $black-main;
+  align-items: center;
   display: flex;
-  height: 8vh;
-  justify-content: flex-end;
+  height: 18vh;
+  justify-content: space-around;
   position: relative;
   width: 100%;
+
+  .logo {
+    height: auto;
+    width: 25%;
+  }
 
   &_item {
     align-items: center;
     display: flex;
     font-size: 16px;
     font-weight: bold;
-    height: 100%;
+    height: 8vh;
     justify-content: center;
-    width: 15%;
+    width: 10%;
 
     &:hover {
-      background-color: $black-second;
-      border: 1px solid $gray-main;
+      border-bottom: 2px solid $black-main;
     }
 
     &:active {
@@ -27,18 +31,15 @@
 }
 
 .submenu {
-  color: $white;
-  left: 0;
-  position: absolute;
-  width: 20%;
-
-  &_title {
-    cursor: pointer;
-  }
+  position: relative;
+  width: 15%;
 
   &-items {
-    background-color: $black-main;
-    position: relative;
+    background-color: white;
+    border-top: 2px solid $black-main;
+    padding: 0 10px;
+    position: absolute;
+    width: 100%;
   }
 
   &_item {

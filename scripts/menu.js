@@ -10,7 +10,7 @@ function displaySubmenu() {
   }
 }
 
-document.querySelector('.submenu_title').addEventListener('click', displaySubmenu);
+document.querySelector('#navtitle').addEventListener('click', displaySubmenu);
 document.querySelector('main').addEventListener('click', () => {
   if (display) {
     displaySubmenu();
