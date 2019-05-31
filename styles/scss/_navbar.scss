@@ -16,12 +16,12 @@
     display: flex;
     font-size: 16px;
     font-weight: bold;
-    height: 8vh;
+    height: 6vh;
     justify-content: center;
     width: 10%;
 
     &:hover {
-      border-bottom: 2px solid $black-main;
+      border-bottom: 2px solid;
     }
 
     &:active {
@@ -35,15 +35,15 @@
   width: 15%;
 
   &-items {
-    background-color: white;
-    border-top: 2px solid $black-main;
+    background-color: $white;
+    border-top: 2px solid;
     padding: 0 10px;
     position: absolute;
     width: 100%;
   }
 
   &_item {
-    height: 8vh;
+    height: 6vh;
     width: 100%;
 
     i {

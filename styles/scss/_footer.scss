@@ -1,14 +1,14 @@
 .footer {
   align-items: center;
-  background-color: $black-main;
-  color: $gray-main;
+  background-color: $black-second;
+  color: $white;
   display: flex;
   height: 15vh;
   justify-content: space-around;
   margin-top: 50px;
 
   i {
-    cursor: pointer;
+    color: $white;
     font-size: 40px;
     margin-right: 10px;
   }

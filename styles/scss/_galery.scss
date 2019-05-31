@@ -1,5 +1,4 @@
 .galery {
-  background-color: $gray-main;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -9,7 +8,7 @@
   border-radius: 5px;
   cursor: pointer;
   height: 40vh;
-  margin: 2% 2%;
+  margin: 2%;
   position: relative;
   width: 26vw;
 
@@ -28,7 +27,7 @@
 .info {
   background-color: $black-transparent-i;
   border-radius: 5px;
-  color: $gray-main;
+  color: $white;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -51,7 +50,7 @@
     background-color: $black-transparent-f;
 
     h2 {
-      display: inline-block;
+      display: block;
     }
 
     p {

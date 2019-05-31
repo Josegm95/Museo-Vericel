@@ -1,17 +1,18 @@
 .slider-container {
-  background-color: $black-main;
+  border-radius: 5px;
   height: 75vh;
   margin: auto;
   overflow: hidden;
   position: relative;
-  width: 70%;
+  width: 90%;
 
   i {
     align-items: center;
     background-color: $black;
-    border: 1px solid $white;
-    border-radius: 40px;
+    border: 1px solid;
+    border-radius: 20%;
     color: $white;
+    cursor: pointer;
     display: flex;
     font-size: 20px;
     height: 40px;
@@ -21,13 +22,11 @@
     width: 40px;
 
     &:hover {
-      cursor: pointer;
       opacity: .6;
     }
 
     &:active {
-      border-color: $black-main;
-      color: $black-main;
+      opacity: .9;
     }
   }
 

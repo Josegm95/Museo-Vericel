@@ -7,14 +7,13 @@
   }
 
   i {
-    color: $black-main;
     cursor: pointer;
     display: block;
-    font-size: 5vh;
+    font-size: 4vh;
   }
 
   input {
-    border: 3px solid $black-main;
+    border: 3px solid;
     border-radius: 8px;
     font-size: 16px;
     height: 5vh;
