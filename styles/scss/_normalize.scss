@@ -5,9 +5,14 @@
   padding: 0;
 }
 
+html {
+  background-color: $main-color;
+}
+
 body {
+  background-color: $white;
   margin: auto;
-  width: 90%;
+  width: 86%;
 }
 
 a {

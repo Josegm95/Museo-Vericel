@@ -21,7 +21,7 @@
     width: 10%;
 
     &:hover {
-      border-bottom: 2px solid;
+      border-bottom: 4px solid $main-color;
     }
 
     &:active {
@@ -36,7 +36,7 @@
 
   &-items {
     background-color: $white;
-    border-top: 2px solid;
+    border-top: 2px solid $main-color;
     padding: 0 10px;
     position: absolute;
     width: 100%;
@@ -47,6 +47,7 @@
     width: 100%;
 
     i {
+      color: $main-color;
       font-size: 25px;
       margin: 0 20px 0 0;
     }

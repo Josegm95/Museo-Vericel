@@ -1,11 +1,10 @@
 .footer {
   align-items: center;
-  background-color: $black-second;
+  background-color: $footer-color;
   color: $white;
   display: flex;
   height: 15vh;
   justify-content: space-around;
-  margin-top: 50px;
 
   i {
     color: $white;

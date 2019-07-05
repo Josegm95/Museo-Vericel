@@ -1,14 +1,10 @@
-.family-page {
-  border-top: 4px solid;
-}
-
 .family {
   align-items: center;
-  background-color: $gray;
-  border-bottom: 4px solid;
+  background-color: $secundary-color;
   display: flex;
   height: 65vh;
-  padding: 0 10vw;
+  justify-content: space-between;
+  padding: 0 5vw;
 
   &--left {
     background-color: inherit;
@@ -43,17 +39,17 @@
       width: 15%;
 
       &:hover {
-        border-bottom: 2px solid;
+        border-bottom: 3px solid $main-color;
       }
     }
   }
 
   &_img {
     padding: 2vw;
-    width: 40%;
+    width: 35%;
 
     img {
-      border: 4px solid;
+      background-color: $main-color;
       border-radius: 50%;
       height: auto;
       width: 100%;

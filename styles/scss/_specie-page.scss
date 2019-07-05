@@ -5,17 +5,17 @@
   overflow: hidden;
 
   img {
-    border-radius: 5px;
     margin-top: -35%;
     width: 100%;
   }
 }
 
 .specie-description {
+  background-color: $secundary-color;
+
   h1 {
-    border-bottom: 2px solid;
     display: inline-block;
-    margin: 15px 0;
+    margin-bottom: 15px;
   }
 
   p {
@@ -33,4 +33,26 @@
       width: 3px;
     }
   }
+}
+
+.section {
+  min-height: 60vh;
+  padding: 20px;
+}
+
+.specie-bionomy {
+}
+
+.specie-location {
+  background-color: $secundary-color;
+}
+
+.specie-importance {
+}
+
+.specie-taxonomy {
+  background-color: $secundary-color;
+}
+
+.specie-references {
 }

@@ -13,9 +13,14 @@
   padding: 0;
 }
 
+html {
+  background-color: #428e6a;
+}
+
 body {
+  background-color: #fff;
   margin: auto;
-  width: 90%;
+  width: 86%;
 }
 
 a {
@@ -45,6 +50,10 @@ li {
   justify-content: flex-start;
 }
 
+.sec-color {
+  background-color: #dadada;
+}
+
 .navbar {
   align-items: center;
   display: flex;
@@ -67,7 +76,7 @@ li {
   width: 10%;
 }
 .navbar_item:hover {
-  border-bottom: 2px solid;
+  border-bottom: 4px solid #428e6a;
 }
 .navbar_item:active {
   opacity: 0.8;
@@ -79,7 +88,7 @@ li {
 }
 .submenu-items {
   background-color: #fff;
-  border-top: 2px solid;
+  border-top: 2px solid #428e6a;
   padding: 0 10px;
   position: absolute;
   width: 100%;
@@ -89,6 +98,7 @@ li {
   width: 100%;
 }
 .submenu_item i {
+  color: #428e6a;
   font-size: 25px;
   margin: 0 20px 0 0;
 }
@@ -101,6 +111,7 @@ li {
   opacity: 0.5;
 }
 .search i {
+  color: #428e6a;
   cursor: pointer;
   display: block;
   font-size: 4vh;
@@ -116,12 +127,11 @@ li {
 }
 
 .slider-container {
-  border-radius: 5px;
   height: 75vh;
   margin: auto;
   overflow: hidden;
   position: relative;
-  width: 90%;
+  width: 100%;
 }
 .slider-container i {
   align-items: center;
@@ -172,7 +182,7 @@ li {
   height: 40vh;
   margin: 2%;
   position: relative;
-  width: 26vw;
+  width: 29%;
 }
 .article figure {
   height: 100%;
@@ -216,12 +226,11 @@ li {
 
 .footer {
   align-items: center;
-  background-color: #323232;
+  background-color: #585858;
   color: #fff;
   display: flex;
   height: 15vh;
   justify-content: space-around;
-  margin-top: 50px;
 }
 .footer i {
   color: #fff;
@@ -230,23 +239,19 @@ li {
 }
 
 .text-area {
-  margin: 60px 7%;
+  padding: 60px 7%;
 }
 .text-area p {
   margin: 20px 0;
 }
 
-.family-page {
-  border-top: 4px solid;
-}
-
 .family {
   align-items: center;
-  background-color: #e0e0e0;
-  border-bottom: 4px solid;
+  background-color: #dadada;
   display: flex;
   height: 65vh;
-  padding: 0 10vw;
+  justify-content: space-between;
+  padding: 0 5vw;
 }
 .family--left {
   background-color: inherit;
@@ -277,14 +282,14 @@ li {
   width: 15%;
 }
 .family_info a:hover {
-  border-bottom: 2px solid;
+  border-bottom: 3px solid #428e6a;
 }
 .family_img {
   padding: 2vw;
-  width: 40%;
+  width: 35%;
 }
 .family_img img {
-  border: 4px solid;
+  background-color: #428e6a;
   border-radius: 50%;
   height: auto;
   width: 100%;
@@ -297,15 +302,16 @@ li {
   overflow: hidden;
 }
 .coverpage img {
-  border-radius: 5px;
   margin-top: -35%;
   width: 100%;
 }
 
+.specie-description {
+  background-color: #dadada;
+}
 .specie-description h1 {
-  border-bottom: 2px solid;
   display: inline-block;
-  margin: 15px 0;
+  margin-bottom: 15px;
 }
 .specie-description p {
   margin: 1% 2%;
@@ -319,6 +325,19 @@ li {
 .specie-description .list-container .barr {
   background-color: #000;
   width: 3px;
+}
+
+.section {
+  min-height: 60vh;
+  padding: 20px;
+}
+
+.specie-location {
+  background-color: #dadada;
+}
+
+.specie-taxonomy {
+  background-color: #dadada;
 }
 
 /*# sourceMappingURL=style.css.map */
