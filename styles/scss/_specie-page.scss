@@ -26,11 +26,13 @@
     display: flex;
     justify-content: space-between;
     padding: 2%;
-    width: 50%;
 
-    .barr {
-      background-color: $black;
-      width: 3px;
+    h3 {
+      margin-bottom: 5px;
+    }
+
+    ul {
+      margin: 0 10px;
     }
   }
 }
@@ -48,10 +50,16 @@
 }
 
 .specie-importance {
+  display: flex;
+  justify-content: space-around;
 }
 
 .specie-taxonomy {
   background-color: $secundary-color;
+
+  img {
+    width: 20%;
+  }
 }
 
 .specie-references {
