@@ -10,57 +10,112 @@
   }
 }
 
-.specie-description {
-  background-color: $secundary-color;
+.section {
+  min-height: 60vh;
+  padding: 40px;
 
-  h1 {
-    display: inline-block;
+  h1,
+  h2 {
     margin-bottom: 15px;
-  }
-
-  p {
-    margin: 1% 2%;
-  }
-
-  .list-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 2%;
-
-    h3 {
-      margin-bottom: 5px;
-    }
-
-    ul {
-      margin: 0 10px;
-    }
   }
 }
 
-.section {
-  min-height: 60vh;
-  padding: 20px;
+.specie-description {
+  padding-bottom: 0;
+
+  h3 {
+    margin: 30px 0 10px;
+  }
+
+  ul {
+    height: 200px;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 }
 
 .specie-bionomy {
+  background-color: $secundary-color;
+
+  p {
+    margin: 40px;
+    text-align: justify;
+  }
 }
 
 .specie-location {
-  background-color: $secundary-color;
+  .location-container {
+    .map {
+      width: 70%;
+      margin: auto;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    ol {
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin: auto;
+      align-items: center;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+  }
 }
 
 .specie-importance {
+  background-color: $secundary-color;
+
   display: flex;
   justify-content: space-around;
+
+  h2 {
+    margin-bottom: 40px;
+  }
+
+  li {
+    margin: 10px 0;
+  }
 }
 
 .specie-taxonomy {
-  background-color: $secundary-color;
+  .key-container {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-  img {
-    width: 20%;
+  .key {
+    margin: 40px 0;
+    width: 35%;
+
+    img {
+      border-radius: 3px;
+      border: 5px solid $main-color;
+      width: 100%;
+      height: auto;
+    }
+
+    p {
+      text-align: center;
+      margin-top: 20px;
+    }
   }
 }
 
 .specie-references {
+  background-color: $secundary-color;
+
+  li {
+    margin: 15px 0;
+  }
 }
