@@ -184,8 +184,8 @@ li {
 }
 .slider img {
   width: 100%;
-  border-left: 13vw solid #000;
-  border-right: 13vw solid #000;
+  border-left: 14vw solid #000;
+  border-right: 14vw solid #000;
 }
 
 .galery {
@@ -408,7 +408,8 @@ li {
   height: auto;
 }
 .specie-taxonomy .key img:hover {
-  opacity: 0.7;
+  cursor: zoom-in;
+  opacity: 0.9;
 }
 .specie-taxonomy .key p {
   text-align: center;
@@ -422,7 +423,7 @@ li {
   margin: 15px 0;
 }
 
-.img-modal {
+.modal-img {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -433,17 +434,17 @@ li {
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.8);
 }
-.img-modal img {
+.modal-img img {
   width: auto;
   height: 95%;
 }
-.img-modal i {
+.modal-img i {
   margin-top: 20px;
   color: #428e6a;
   align-self: flex-start;
   font-size: 40px;
 }
-.img-modal i:hover {
+.modal-img i:hover {
   cursor: pointer;
   opacity: 0.7;
 }
