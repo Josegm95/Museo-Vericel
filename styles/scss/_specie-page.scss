@@ -1,11 +1,12 @@
 .coverpage {
   display: flex;
-  height: 65vh;
+  height: 70vh;
   justify-content: center;
   overflow: hidden;
 
   img {
-    margin-top: -35%;
+    border-left: 10vw solid;
+    border-right: 10vw solid;
     width: 100%;
   }
 }
@@ -103,6 +104,10 @@
       border: 5px solid $main-color;
       width: 100%;
       height: auto;
+
+      &:hover {
+        opacity: 0.7;
+      }
     }
 
     p {

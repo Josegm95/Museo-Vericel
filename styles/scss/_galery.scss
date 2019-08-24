@@ -1,22 +1,24 @@
 .galery {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .article {
   border-radius: 5px;
   cursor: pointer;
-  height: 40vh;
-  margin: 2%;
+  height: 50vh;
+  margin: 4% 0;
   position: relative;
-  width: 29%;
+  width: 36%;
+  border: 5px solid $black;
 
   figure {
     height: 100%;
     position: absolute;
 
     img {
+      padding: 20px;
       border-radius: 5px;
       height: 100%;
       width: 100%;
@@ -25,8 +27,6 @@
 }
 
 .info {
-  background-color: $black-transparent-i;
-  border-radius: 5px;
   color: $white;
   display: flex;
   flex-direction: column;
@@ -47,7 +47,7 @@
   }
 
   &:hover {
-    background-color: $black-transparent-f;
+    background-color: $black-transparent;
 
     h2 {
       display: block;

@@ -2,7 +2,7 @@
   align-items: center;
   background-color: $secundary-color;
   display: flex;
-  height: 65vh;
+  min-height: 65vh;
   justify-content: space-between;
   padding: 0 5vw;
 
@@ -32,11 +32,10 @@
     }
 
     a {
-      align-items: center;
-      display: flex;
-      height: 40px;
-      justify-content: center;
-      width: 15%;
+      display: inline-block;
+      padding: 0 5px;
+      height: 25px;
+      margin: 10px 0;
 
       &:hover {
         border-bottom: 3px solid $main-color;
