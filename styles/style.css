@@ -143,6 +143,7 @@ li {
 }
 
 .slider-container {
+  background-color: #000;
   height: 75vh;
   margin: auto;
   overflow: hidden;
