@@ -79,6 +79,10 @@
   display: flex;
   justify-content: space-around;
 
+  .importance-item {
+    width: 45%;
+  }
+
   h2 {
     margin-bottom: 40px;
   }

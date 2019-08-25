@@ -386,6 +386,9 @@ li {
   display: flex;
   justify-content: space-around;
 }
+.specie-importance .importance-item {
+  width: 45%;
+}
 .specie-importance h2 {
   margin-bottom: 40px;
 }

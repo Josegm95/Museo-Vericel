@@ -3,7 +3,7 @@ const modal = document.getElementById('modal-img');
 
 for (let i = 0; i < keys.length; i++) {
   keys[i].addEventListener('click', () => {
-    modal.setAttribute('src', keys[i].getAttribute('src'));
+    modal.children[0].setAttribute('src', keys[i].getAttribute('src'));
     modal.className = 'modal-img';
   });
 }
