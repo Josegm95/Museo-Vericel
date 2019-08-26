@@ -34,3 +34,12 @@
   font-size: 30px;
   text-align: center;
 }
+
+.in-progress {
+  background-color: $secundary-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  font-size: 30px;
+}

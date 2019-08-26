@@ -1,14 +1,16 @@
 .footer {
-  align-items: center;
   background-color: $footer-color;
   color: $white;
-  display: flex;
-  height: 15vh;
-  justify-content: space-around;
+  padding: 1px 60px;
 
-  i {
-    color: $white;
-    font-size: 40px;
+  p {
+    text-align: center;
+    margin: 15px;
+  }
+
+  .important {
+    font-weight: bold;
+    font-size: 20px;
     margin-right: 10px;
   }
 }

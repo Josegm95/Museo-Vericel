@@ -1,18 +1,17 @@
 .coverpage {
   display: flex;
-  height: 70vh;
+  height: 75vh;
   justify-content: center;
   overflow: hidden;
 
   img {
-    border-left: 10vw solid;
-    border-right: 10vw solid;
+    border-left: 15vw solid;
+    border-right: 15vw solid;
     width: 100%;
   }
 }
 
 .section {
-  min-height: 60vh;
   padding: 40px;
 
   h1,
@@ -22,14 +21,12 @@
 }
 
 .specie-description {
-  padding-bottom: 0;
-
   h3 {
-    margin: 30px 0 10px;
+    margin: 20px 0 10px;
   }
 
   ul {
-    height: 200px;
+    max-height: 200px;
     margin: 0 20px;
     display: flex;
     flex-direction: column;
@@ -41,7 +38,7 @@
   background-color: $secundary-color;
 
   p {
-    margin: 40px;
+    margin: 20px 5vw;
     text-align: justify;
   }
 }
@@ -59,7 +56,7 @@
     }
 
     ol {
-      height: 250px;
+      max-height: 250px;
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
@@ -75,7 +72,6 @@
 
 .specie-importance {
   background-color: $secundary-color;
-
   display: flex;
   justify-content: space-around;
 
@@ -93,21 +89,17 @@
 }
 
 .specie-taxonomy {
-  .key-container {
-    justify-content: space-around;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
   .key {
-    margin: 40px 0;
-    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    height: 300px;
 
     img {
       border-radius: 3px;
       border: 5px solid $main-color;
-      width: 100%;
-      height: auto;
+      width: auto;
+      height: 100%;
 
       &:hover {
         cursor: zoom-in;
@@ -115,9 +107,18 @@
       }
     }
 
-    p {
-      text-align: center;
-      margin-top: 20px;
+    ul {
+      width: 40%;
+      overflow: auto;
+    }
+
+    h3 {
+      font-size: 22px;
+      margin: 20px;
+    }
+
+    li {
+      margin: 5px 0;
     }
   }
 }
